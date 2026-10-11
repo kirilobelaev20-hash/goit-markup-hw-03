@@ -11,11 +11,15 @@
 }
 
 .header-container {
-  justify-content: space-between;
+  gap: 76px;
 }
 
 .header-nav {
-  gap: 76px;
+  display: flex;
+}
+
+.address {
+  margin-left: auto;
 }
 
 .logo {
