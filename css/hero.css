@@ -1,0 +1,35 @@
+.top-one {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+#hero {
+    background-color: #2e2f42;
+}
+
+.main-button,
+.button-text {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.main-button {
+    color: #fff;
+    background-color: #4d5ae5;
+}
+
+.main-button:hover,
+.main-button:focus {
+    background-color: #404bbf;
+}
+
+.main-text {
+    color: #fff;
+    text-align: center;
+}
