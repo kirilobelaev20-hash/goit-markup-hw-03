@@ -1,36 +1,23 @@
-.part-logo,
-.logo-footer {
-    color: #f4f4fd;
-    font-size: 18px;
-    letter-spacing: 0.03em;
-}
-
-.link-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
-    text-transform: uppercase;
-}
-
-.logo-footer {
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
-.text-footer {
-    color: #f4f4fd;
-    font-size: 16px;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-}
-
 .footer-page {
-    background-color: #2e2f42;
+  padding: 100px 0;
+  background-color: #2e2f42;
 }
 
-.footer-zag {
-    font-size: 30px;
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.footer-logo .part-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
